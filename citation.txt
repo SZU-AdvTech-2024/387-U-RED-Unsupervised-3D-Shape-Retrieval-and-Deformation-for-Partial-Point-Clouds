@@ -1,0 +1,8 @@
+@inproceedings{REPO387,
+    author = "Di, Yan and Zhang, Chenyangguang and Zhang, Ruida and Manhardt, Fabian and Su, Yongzhi and Rambach, Jason and Stricker, Didier and Ji, Xiangyang and Tombari, Federico",
+    booktitle = "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+    month = "October",
+    pages = "8884-8895",
+    title = "{U-RED: Unsupervised 3D Shape Retrieval and Deformation for Partial Point Clouds}",
+    year = "2023"
+}
