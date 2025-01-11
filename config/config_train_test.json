@@ -1,0 +1,65 @@
+{
+    "base_dir": "/mnt/d/20240308/U-RED/data",
+    "middle_name": "orion/u/mikacuy/part_deform",
+    "src_connectivity": "/mnt/d/20240308/U-RED/workspace/0718/pickle/sources/sources_connect.npy",
+    "complementme": false,
+    "category": "chair",
+    "data_dir": "data_aabb_all_models",
+    "num_source": -1,
+    "mode": "train",
+
+    "use_connectivity": false,
+
+    "init_dm": false,
+    "init_re": false,
+    "dm_model_path": "nan",
+    "re_model_path": "nan",
+    "log_path": "workspace/00",
+    "action": "save embeddings",
+
+
+    "device": "cuda",
+    "optimizer": "adam",
+    "epochs": 300,
+    "save_epoch": 50,
+    "batch_size": 16,
+    "num_workers": 4,
+    "input_channels": 3,
+    "random_rot": true,
+
+    "cl_k": 40,
+    "MAX_NUM_PARTS": 16,
+    "filter_threshold": 2e-2,
+    "pooling": "max",
+    "n_knn" : 20,
+
+    "learning_rate": 0.001,
+    "lr_autodecoder": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "lr_stepsize": 3,
+    "lr_decay": 0.5,
+
+    "alpha": 0.1,
+
+    "sem_latent_dim": 128,
+    "source_latent_dim": 512,
+    "target_latent_dim": 512,
+    "part_latent_dim": 512,
+
+    "use_chamfer_loss": 30.0,
+    "use_chamfer_part_loss": 1.0,
+    "use_symmetry_loss": 30.0,
+    "use_contrast_loss": 0.5,
+    "use_param_loss": 0.0,
+    "init_p_m_loss": -1,
+
+
+    "use_deformed_pc_consistency": 10.0,
+    "use_residuals_reg": 3.0,
+    "use_recon": 30.0,
+
+
+    "share_src_latent": false,
+    "clip_vec": false
+}
